@@ -1,0 +1,90 @@
+/*
+Color Template - Start
+*/
+
+.dark-teal {
+	background-color: #193441 !important;
+}
+
+.dark-teal-text {
+	color: #193441 !important;
+}
+
+.light-teal {
+	background-color: #3E606F !important;
+}
+
+.light-teal-text {
+	color: #3E606F !important;
+}
+
+.blue-grey {
+	background-color: #91AA9D !important;
+}
+
+.blue-grey-text {
+	color: #91AA9D !important;
+}
+
+.beige {
+	background-color: #D1DBBD !important;
+}
+
+.beige-text {
+	color: #D1DBBD !important;
+}
+
+.tan {
+	background-color: #FCFFF5 !important;
+}
+
+.tan-text {
+	color: #FCFFF5 !important;
+}
+
+/*
+Color Template - End
+*/
+
+.container .row .header {
+	margin-top: -25px;
+}
+
+.container .row .header.banner-text {
+	min-height: 50px;
+	padding-top: 12px;
+	background-color: rgba(25,25,25,0.5);
+}
+
+.text-shadow {
+	text-shadow: 0px 0px 15px #000000;
+}
+
+.modal {
+	max-height: 80%;
+}
+
+.modal.modal-fixed-footer {
+	height: 80%;
+}
+
+.collection .collection-item.avatar .aVideo {
+	height: 100%;
+	width: 100%;
+}
+
+.row .collection.ulCollection {
+	padding: 0px;
+}
+
+#submitBtn {
+	width: 100%;
+}
+
+footer.page-footer {
+	padding-top: 0px;
+}
+
+footer.page-footer .footer-copyright {
+	background-color: rgba(0, 0, 0, 0.0);
+}

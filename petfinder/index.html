@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Pet Finder</title>
+
+  <!-- CSS  -->
+  <link href="css/material.icon.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/materialize.custom.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/mdif.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/backtotop.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/main.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+</head>
+<body class="light-teal">
+
+  <nav class="light-teal" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="index.html" class="brand-logo beige-text">Pet Finder</a>
+      <ul class="right hide-on-med-and-down">
+        <li>
+          <a href="#" class="beige-text navPetFinder">
+            Pet Finder
+          </a>
+        </li>
+      </ul>
+      <ul id="nav-mobile" class="side-nav dark-teal">
+        <li>
+          <a href="#" class="beige-text navPetFinder">
+            Pet Finder
+          </a>
+        </li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse beige-text"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div class="container pagePetFinder">
+    <div class="section">
+      <div class="row">
+        <form id="animalTypeForm" class="col s6">
+          <div class="input-field col s12">
+            <input id="animalType" name="animalType" type="text" class="beige-text validate" placeholder="bird, cat, dog" required>
+            <label for="animalType" class="beige-text">Animal Type</label>
+          </div>
+          <div class="col offset-s4 s4">
+            <button id="submitBtn" class="btn waves-effect waves-light" type="submit" name="submit">Submit</button>
+          </div>
+        </form>
+        <ul id="animalTypeList" class="collection ulCollection col s6 light-teal-text"></ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="row">
+        <div class="col offset-s3 s7">
+          <div class="col s4">
+            <button id="submitBird" class="btn waves-effect waves-light" type="submit" name="submitBird">Bird</button>
+          </div>
+          <div class="col s4">
+            <button id="submitCat" class="btn waves-effect waves-light" type="submit" name="submitCat">Cat</button>
+          </div>
+          <div class="col s4">
+            <button id="submitDog" class="btn waves-effect waves-light" type="submit" name="submitDog">Dog</button>
+          </div>
+        </div>
+        <ul id="buttonSubmitList" class="collection ulCollection col offset-s2 s8 light-teal-text"></ul>
+      </div>
+    </div>
+  </div>
+
+  <footer class="page-footer contact light-teal">
+    <div class="footer-copyright">
+      <div class="container beige-text">
+      Made by Andrew Pino
+      </div>
+    </div>
+  </footer>
+  <a href="#0" class="cd-top">Top</a>
+
+  <!--  Scripts-->
+  <script src="js/jquery-2.1.1.min.js"></script>
+  <script src="js/jquery.serializejson.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/scrollTo.js"></script>
+  <script src="js/backtotop.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,302 @@
+@charset "utf-8";
+body {
+    background-color: #222222;
+}
+
+#tabs {
+    padding: 20px 0px 30px 0px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tabArticlesParent a,
+#tabArticlesParent a:hover,
+#tabArticlesParent a:focus {
+    background-color: white;
+    color: rgba(204, 51, 51, 1);
+    border: 2px solid rgba(204, 51, 51, 1);
+    border-radius: 30px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: 1.2em;
+    font-weight: bold;
+    height: 40px;
+    padding: 7px;
+}
+
+#tabArticlesParent a:hover {
+    text-decoration: underline;
+}
+
+#tabVideosParent a,
+#tabVideosParent a:hover,
+#tabVideosParent a:focus {
+    background-color: white;
+    color: rgba(204, 51, 51, 1);
+    border: 2px solid rgba(204, 51, 51, 1);
+    border-radius: 30px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    font-size: 1.2em;
+    font-weight: bold;
+    height: 40px;
+    padding: 7px;
+}
+
+#tabVideosParent a:hover {
+    text-decoration: underline;
+}
+
+#ulVideos li a {
+    text-decoration: none;
+}
+
+.active a#tabArticles,
+.active a#tabVideos {
+    background-color: rgba(204, 51, 51, 1);
+    color: white;
+    text-decoration: none;
+    cursor: default;
+}
+
+#ulArticles {
+    height: 100%;
+    list-style: none;
+    padding: 0px;
+}
+
+#ulVideos {
+    height: 100%;
+    list-style: none;
+    padding: 0px;
+}
+
+#ulVideos li {
+    height: 100px;
+    Revert for app develop
+}
+
+.color-normal {
+    color: #FFFFFF;
+}
+
+.color-inverted {
+    color: #333333;
+}
+
+.well {
+    border: 0px;
+    border-radius: 0px;
+}
+
+.navbar {
+    margin: 0px;
+}
+
+.tabArticle {
+    height: 100%;
+    margin-bottom: -20px;
+}
+
+.tabVideo {
+    height: 100%;
+    margin-bottom: 0px;
+}
+
+.article {
+    position: relative;
+}
+
+.articleThumb {
+    height: 50%;
+    width: 100%;
+}
+
+.articleHeadline {
+    position: relative;
+    top: -30px;
+    left: 0px;
+    background-color: rgba(25, 25, 25, 0.9);
+    color: #eee;
+    height: 30px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1.2em;
+}
+
+.video {
+    position: relative;
+}
+
+.videoThumb {
+    height: 50%;
+    width: 100%;
+}
+
+.videoName {
+    position: relative;
+    top: -30px;
+    left: 0px;
+    background-color: rgba(25, 25, 25, 0.9);
+    color: #eee;
+    height: 30px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1.2em;
+}
+
+.gameName {
+    float: left;
+    padding-left: 10px;
+}
+
+.ignLogo {
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    height: 44px;
+    width: 44px;
+}
+
+@media (max-width: 767px) {
+    #tabs {
+        padding-top: 15px;
+        padding-bottom: 0px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #ulArticles li {
+        padding: 0px;
+    }
+    #ulVideos li {
+        height: auto;
+        padding: 0px;
+        cursor: pointer;
+    }
+    .well {
+        margin: -10px 10px 0px 10px;
+        padding: 0px;
+    }
+    .row {
+        margin: 0px;
+    }
+    .tabArticle {
+        height: 100%;
+        margin-bottom: -40px;
+    }
+    .tabVideo {
+        height: 100%;
+        margin-bottom: 0px;
+    }
+    .articleThumb {
+        height: 50%;
+        width: 100%;
+        padding: 0px;
+    }
+    .articleHeadline {
+        position: relative;
+        top: -50px;
+        left: 0px;
+        background-color: rgba(25, 25, 25, 0.9);
+        color: #eee;
+        height: 50px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 12px;
+        padding-left: 10px;
+        padding-right: 10px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 1.1em;
+    }
+    .videoThumb {
+        height: 50%;
+        width: 100%;
+        padding: 0px;
+    }
+    .videoName {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        background-color: rgb(245, 245, 245);
+        color: rgba(25, 25, 25, 0.9);
+        height: 30px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 1em;
+    }
+    .title {
+        color: #333;
+    }
+    .titleNum {
+        display: block;
+        width: 15%;
+        height: 100%;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+    .titleText {
+        display: block;
+        width: 70%;
+        height: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .titleText .gameName {
+        font-size: 1.2em;
+        font-weight: bold;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .titleText .videoName {
+        color: #888;
+        padding-left: 10px;
+    }
+    .titleDur {
+        display: block;
+        width: 15%;
+        height: 100%;
+    }
+    .liBottomBorder {
+        border-bottom: 1px solid #333;
+        margin-bottom: 15px;
+    }
+    .moreVids {
+        font-size: 1.1em;
+        color: #333;
+        height: 60px;
+    }
+    .ignLogo {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        height: 44px;
+        width: 44px;
+    }
+    .nav-pills.nav-justified > li {
+        float: left;
+        width: 49%;
+    }
+}

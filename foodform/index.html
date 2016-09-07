@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Food Form</title>
+
+  <!-- CSS  -->
+  <link href="css/material.icon.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/materialize.custom.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/mdif.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/backtotop.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/main.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+</head>
+<body class="light-teal">
+
+  <nav class="light-teal" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo beige-text">pracForm</a>
+      <ul class="right hide-on-med-and-down">
+        <li>
+          <a href="#" class="beige-text navForm">
+            Form
+          </a>
+        </li>
+      </ul>
+      <ul id="nav-mobile" class="side-nav dark-teal">
+        <li>
+          <a href="#" class="beige-text navForm">
+            Form
+          </a>
+        </li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse beige-text"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div class="container pageForm">
+    <div class="section">
+      <div class="row">
+        <form id="ajaxform" class="col s6">
+          <div class="input-field col s12">
+            <input id="item_name" name="itemName" type="text" class="beige-text validate" required>
+            <label for="item_name" class="beige-text">Name</label>
+          </div>
+          <div class="input-field col s6">
+            <input id="calories" name="calories" type="text" class="beige-text validate" required>
+            <label for="calories" class="beige-text">Calories</label>
+          </div>
+          <div class="col s6">
+            <div class="col s6 valign-wrapper">
+              <div class="valign">
+                <input type="checkbox" id="checkVegetarian" name="checkVegetarian" />
+                <label for="checkVegetarian" class="beige-text">Vegetarian</label>
+              </div>
+            </div>
+            <div class="col s12">
+              <div class="col s6">
+                <input type="checkbox" id="checkSpicy" name="checkSpicy" />
+                <label for="checkSpicy" class="beige-text">Spicy</label>
+              </div>
+              <div class="col s6">
+                <input type="checkbox" id="checkMild" name="checkMild" />
+                <label for="checkMild" class="beige-text">Mild</label>
+              </div>
+              <div class="col s6">
+                <input type="checkbox" id="checkKids" name="checkKids" />
+                <label for="checkKids" class="beige-text">Kids</label>
+              </div>
+              <div class="col s6">
+                <input type="checkbox" id="checkSeniors" name="checkSeniors" />
+                <label for="checkSeniors" class="beige-text">Seniors</label>
+              </div>
+              <div class="col s6">
+                <input type="checkbox" id="checkLight" name="checkLight" />
+                <label for="checkLight" class="beige-text">Light</label>
+              </div>
+              <div class="col s6">
+                <input type="checkbox" id="checkHeavy" name="checkHeavy" />
+                <label for="checkHeavy" class="beige-text">Heavy</label>
+              </div>
+            </div>
+          </div>
+          <div class="col offset-s4 s4">
+            <button id="submitBtn" class="btn waves-effect waves-light" type="submit" name="submit">Submit</button>
+          </div>
+        </form>
+        <ul id="itemList" class="collection ulCollection col s6 light-teal-text">
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <footer class="page-footer contact light-teal">
+    <div class="footer-copyright">
+      <div class="container beige-text">
+      Made by Andrew Pino
+      </div>
+    </div>
+  </footer>
+  <a href="#0" class="cd-top">Top</a>
+
+  <!--  Scripts-->
+  <script src="js/jquery-2.1.1.min.js"></script>
+  <script src="js/jquery.serializejson.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/scrollTo.js"></script>
+  <script src="js/backtotop.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>

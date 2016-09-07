@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Portfolio of Andrew Pino</title>
+
+  <!-- CSS  -->
+  <link href="css/material.icon.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/materialize.custom.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/mdif.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/backtotop.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/main.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  
+</head>
+<body class="light-teal">
+
+  <nav class="light-teal" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo beige-text">Logo</a>
+      <ul class="right hide-on-med-and-down">
+        <li>
+          <a href="#" 
+            onClick="$(window).scrollTo($('.about'), {duration:'slow', offset: 0});" 
+            class="beige-text">
+            About
+          </a>
+        </li>
+        <li>
+          <a href="#" 
+            onClick="$(window).scrollTo($('.portfolio'), {duration:'slow', offset: 0});" 
+            class="beige-text">
+            Portfolio
+          </a>
+        </li>
+		    <li>
+          <a href="#" 
+            onClick="$(window).scrollTo($('.contact'), {duration:'slow', offset: 0});" 
+            class="beige-text">
+            Contact
+          </a>
+        </li>
+      </ul>
+      <ul id="nav-mobile" class="side-nav dark-teal">
+        <li>
+          <a href="#" 
+            onClick="$(window).scrollTo($('.about'), {duration:'slow', offset: 0});" 
+            class="beige-text">
+            About
+          </a>
+        </li>
+        <li>
+          <a href="#" 
+            onClick="$(window).scrollTo($('.portfolio'), {duration:'slow', offset: 0});" 
+            class="beige-text">
+            Portfolio
+          </a>
+        </li>
+        <li>
+          <a href="#" 
+            onClick="$(window).scrollTo($('.contact'), {duration:'slow', offset: 0});" 
+            class="beige-text">
+            Contact
+          </a>
+        </li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse beige-text"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center beige-text text-lighten-2 text-shadow">Andrew Pino</h1>
+        <div class="row center">
+          <h5 class="header col s6 offset-s3 light banner-text">Computer Science Major</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+  <div class="container about beige-text">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 center">
+          <h3>About</h3>
+          <p class="left-align">
+            My name is Andrew Pino, I'm 29 years old and currently studying towards my bachelor's degree in Computer Science. I started programming many years ago with a highschool course in Visual Basic, and since that day I knew what I wanted to do in life.
+          <br /><br />
+            Java and C/C++ are my weapons of choice for solving problems. Whether it's high level or low level I love getting my hands dirty and making things work, especially if it involves learning new concepts. I'm always tinkering with something, whether it's making Android applications, websites with HTML/CSS, or just experimenting with JavaScript.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="parallax-container valign-wrapper">
+    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container portfolio">
+    <div class="section">
+      <div class="row beige-text">
+
+      <div class="col s12 center">
+        <h3 class="beige-text">Portfolio</h3>
+      </div>
+
+        <div class="col s12 m6 center-align float-none">
+          <a class="modal-trigger modal-close" href="#modal1">
+            <img src="images/200x300.png">
+          </a>
+          <div id="modal1" class="modal modal-fixed-footer light-teal">
+            <div class="modal-content icon-block">
+              <img src="images/200x400.png" class="responsive-img">
+              <h5 class="center">Avoidance</h5>
+              <p class="light">
+                Inspired by the classic "Galaga".
+              <br />
+                My final project in my "App Development" course. Developed using Adobe Flash Professional and using a heavy amount of Actionscript. Can be played on both windows and android.
+              </p>
+            </div>
+            <div class="modal-footer light-teal">
+              <a href="#!" class="modal-action modal-close btn-flat beige-text">Close</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m6 center-align float-none">
+          <a class="modal-trigger modal-close" href="#modal2">
+            <img src="images/200x300.png">
+          </a>
+          <div id="modal2" class="modal modal-fixed-footer light-teal">
+            <div class="modal-content icon-block">
+              <img src="images/200x400.png" class="responsive-img">
+              <h5 class="center">Ramyum!</h5>
+              <p class="light">
+                Freelance work done for a 3rd party.
+              <br />
+                Ramyum! is restaurant focusing on asian cuisine and raman dishes.
+              </p>
+            </div>
+            <div class="modal-footer light-teal">
+              <a href="#!" class="modal-action modal-close btn-flat beige-text">Close</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="parallax-container valign-wrapper">
+    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <footer class="page-footer contact light-teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l8 offset-l2">
+          <div class="col s12 center">
+            <h3 class="beige-text">Contact</h3>
+          </div>
+          <div class="col l3 s6 center-align"><a href="#"></a><i class="zmdi zmdi-facebook-box zmdi-hc-5x dark-teal-text"></i></div>
+          <div class="col l3 s6 center-align"><a href="#"></a><i class="zmdi zmdi-twitter-box zmdi-hc-5x dark-teal-text"></i></div>
+          <div class="col l3 s6 center-align"><a href="#"></a><i class="inversed zmdi zmdi-email zmdi-hc-5x dark-teal-text"></i></div>
+          <div class="col l3 s6 center-align"><a href="#"></a><i class="zmdi zmdi-github-box zmdi-hc-5x dark-teal-text"></i></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container beige-text">
+      Made by Andrew Pino
+      </div>
+    </div>
+  </footer>
+  <a href="#0" class="cd-top">Top</a>
+
+  <!--  Scripts-->
+  <script src="js/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/scrollTo.js"></script>
+  <script src="js/backtotop.js"></script>
+
+  </body>
+</html>
